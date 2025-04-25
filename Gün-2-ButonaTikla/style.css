@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    background: #c2ffd8;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #88e1f2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
