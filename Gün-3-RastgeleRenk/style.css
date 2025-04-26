@@ -1,0 +1,16 @@
+body {
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  /* Açık Tema */
+  body.acik-tema {
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  /* Koyu Tema */
+  body.koyu-tema {
+    background-color: #212529;
+    color: #f8f9fa;
+  }
+  
