@@ -1,0 +1,20 @@
+h1 {
+    font-size: 5rem;
+    transition: all 0.4s ease;
+  }
+  
+  /* Pozitif (yeşil) */
+  .pozitif {
+    color: green;
+  }
+  
+  /* Negatif (kırmızı) */
+  .negatif {
+    color: red;
+  }
+  
+  /* Sıfır (normal siyah) */
+  .nötr {
+    color: black;
+  }
+  

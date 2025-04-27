@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gün 4 - Gelişmiş Sayaç</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100 bg-light">
+
+  <div class="text-center">
+    <h1 id="sayi" class="mb-4">0</h1>
+    <div class="btn-group" role="group">
+      <button onclick="arttir()" class="btn btn-success">Artır</button>
+      <button onclick="azalt()" class="btn btn-danger">Azalt</button>
+      <button onclick="sifirla()" class="btn btn-secondary">Sıfırla</button>
+    </div>
+  </div>
+
+  <!-- Toast Bildirimi -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="toastBildirim" class="toast align-items-center text-white bg-primary border-0" role="alert">
+      <div class="d-flex">
+        <div class="toast-body" id="toastMesaj"></div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
