@@ -6,3 +6,5 @@
 2- Butona Tıklama
 
 3- Tema Değişim
+
+4- Sayaç Uygulaması
