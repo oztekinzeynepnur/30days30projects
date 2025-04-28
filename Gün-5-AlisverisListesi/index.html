@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gün 5 - Gelişmiş Alışveriş Listesi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">🛒 Alışveriş Listem</h1>
+
+    <div class="input-group mb-3">
+      <input type="text" id="urunInput" class="form-control" placeholder="Ürün adı girin...">
+      <button onclick="urunEkle()" class="btn btn-primary">Ekle</button>
+    </div>
+
+    <ul id="liste" class="list-group mb-3"></ul>
+
+    <button onclick="tumunuSil()" class="btn btn-danger w-100">Tüm Listeyi Sil</button>
+  </div>
+
+  <!-- Toast Bildirimi -->
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div id="toastBildirim" class="toast align-items-center text-white bg-success border-0" role="alert">
+      <div class="d-flex">
+        <div class="toast-body" id="toastMesaj"></div>
+        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
