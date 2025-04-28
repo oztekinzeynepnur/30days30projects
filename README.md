@@ -8,3 +8,5 @@
 3- Tema Değişim
 
 4- Sayaç Uygulaması
+
+5- Alışveriş Listesi
