@@ -10,3 +10,5 @@
 4- Sayaç Uygulaması
 
 5- Alışveriş Listesi
+
+6- Emoji Tepki Uygulaması
