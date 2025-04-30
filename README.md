@@ -12,3 +12,5 @@
 5- Alışveriş Listesi
 
 6- Emoji Tepki Uygulaması
+
+7- Hava Durumu Uygulaması
