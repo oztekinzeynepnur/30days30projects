@@ -14,3 +14,6 @@
 6- Emoji Tepki Uygulaması
 
 7- Hava Durumu Uygulaması
+
+8- To-Do List Uygulaması
+
