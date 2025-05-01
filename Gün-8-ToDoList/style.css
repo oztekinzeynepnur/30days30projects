@@ -1,0 +1,12 @@
+.done {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+  
+  .toast {
+    background-color: #198754;
+    color: white;
+  }
+  
