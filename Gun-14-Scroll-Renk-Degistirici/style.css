@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    color: white;
+    text-align: center;
+  }
+  
+  .content {
+    padding: 50px;
+  }
+  
+  .spacer {
+    height: 3000px;
+  }
+  
