@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0f2027;
+  color: #00f2fe;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+}
+
+.cursor {
+  animation: blink 0.7s infinite;
+  color: #00f2fe;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
