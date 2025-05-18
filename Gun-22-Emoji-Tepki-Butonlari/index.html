@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emoji Tepki Butonları</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tepkini Göster!</h1>
+    <div class="buttons">
+      <button onclick="react('like')">👍 <span id="likeCount">0</span></button>
+      <button onclick="react('love')">❤️ <span id="loveCount">0</span></button>
+      <button onclick="react('haha')">😂 <span id="hahaCount">0</span></button>
+    </div>
+    <div id="effectArea"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
