@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #0f62fe;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#themeToggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Koyu Tema */
+body.dark {
+  background-color: #1e1e1e;
+}
+
+body.dark .card {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+body.dark input {
+  background-color: #444;
+  color: white;
+  border: 1px solid #666;
+}

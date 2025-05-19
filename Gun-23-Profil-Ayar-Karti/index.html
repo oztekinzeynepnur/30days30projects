@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profil Ayarları Kartı</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <button id="themeToggle">🌙</button>
+    <img src="https://i.pravatar.cc/150" alt="Profil Foto" class="avatar">
+    <h2 id="name">Zeynep Nur</h2>
+    <p id="bio">Frontend Öğrencisi</p>
+
+    <input type="text" id="nameInput" placeholder="Yeni İsim">
+    <input type="text" id="bioInput" placeholder="Yeni Biyografi">
+    <button onclick="updateProfile()">Güncelle</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
