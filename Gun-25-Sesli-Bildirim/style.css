@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #43a047;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #444;
+}
